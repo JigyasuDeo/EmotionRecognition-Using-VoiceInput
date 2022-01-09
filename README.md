@@ -1,8 +1,8 @@
 # EmotionRecognition Using VoiceInput
 
 ## About :
-We have to recognize the emotion of a person by taking his/her voice as the input. For this project the emotion doesn’t depend on the words of speaker it only depends on tone and pitch of what speaker spoke.
-We are recognizing 7 emotions :- anger, disgust, fear, happiness, neutral, sadness, surprise.
+I have to recognize the emotion of a person by taking his/her voice as the input. For this project the emotion doesn’t depend on the words of speaker it only depends on tone and pitch of what speaker spoke.
+I am recognizing 7 emotions :- anger, disgust, fear, happiness, neutral, sadness, surprise.
 
 ## Methodologies :
 Mel Scale, Spectrogram, CNN, Transfer Learning
@@ -20,11 +20,16 @@ Link :- https://www.kaggle.com/barelydedicated/savee-database
 
   -> There are many ways to achieve that, I have use Mel-Spectrogram to extract the feature like frequency in the form of spectrogram so that I can use them in my CNN Model.
   
+  ![image](https://user-images.githubusercontent.com/59115506/148681786-02ec05e0-8141-4902-8c7a-cb334df11cfe.png)
+
+  
   
  # II.	Training Model
  -> I have used CNN and Transfer Learning for training my model.
  
  -> As CNN works on image architecture I have converted my “.wav” file into Mel-Spectrogram as stated in the data preparation step.
+ ![image](https://user-images.githubusercontent.com/59115506/148681818-dfe71912-70e7-435c-a1eb-4ac2256411eb.png)
+
  
  -> As my dataset is small (consisting of only 480 tracks) I have used transfer learning, using Pre-trained weight of ImageNet models and adding my layers to it.
 
